@@ -1,0 +1,17 @@
+{
+  "name": "clase-02",
+  "version": "1.0.0",
+  "description": "Lista de tareas asíncrono",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "callbacks"
+  ],
+  "author": "Dolores Parra",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

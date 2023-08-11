@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HOJA DE ESTILOS DE BOOTSTRAP -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <script src="index.js" defer></script>
+    <title>Lista de Tareas Asíncronas</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Lista de Tareas</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <input type="text" id="taskInput" class="form-control">
+        </div>
+        <div class="col-md-4">
+            <button id="addTaskBtn" class="btn btn-primary">
+                Agregar Tarea
+            </button>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <ul id="taskList" class="list-group"></ul>
+        </div>
+    </div>
+</body>
+</html>
