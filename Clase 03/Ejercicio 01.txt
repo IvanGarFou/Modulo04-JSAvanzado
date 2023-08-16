@@ -1,0 +1,4 @@
+Escribe una funcion que tomara un numero como argumento, y devuelva una promesa, la cual
+esta promesa debera realizar un calculo de manera asincrona como el resultado de elevar
+un numero al cuadrado despues de un retraso de 5 segundos, y devolver el resultado o 
+un mensaje de error si el numero es negativo
